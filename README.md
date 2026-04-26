@@ -1,16 +1,16 @@
-# 🚀 Flask Docker ECS AWS Deployment Project
+# Flask Docker ECS AWS Deployment Project
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates a complete cloud deployment of a Flask web application using Docker and AWS services. The application is containerized and deployed using Amazon ECR, ECS Fargate, and exposed to the internet using an Application Load Balancer (ALB).
 
 ---
 
-## 🏗️ Architecture Flow
+## Architecture Flow
 Flask App → Docker Image → Amazon ECR → ECS Fargate → Application Load Balancer → Public Access
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - Python (Flask)
 - Docker
 - AWS ECR (Elastic Container Registry)
@@ -19,14 +19,14 @@ Flask App → Docker Image → Amazon ECR → ECS Fargate → Application Load B
 
 ---
 
-## 📁 Project Files
+## Project Files
 - app.py (Flask application)
 - requirements.txt (Dependencies)
 - Dockerfile (Container setup)
 
 ---
 
-## 🚀 Deployment Steps
+## Deployment Steps
 1. Created Flask application
 2. Dockerized the application
 3. Built Docker image locally
@@ -38,15 +38,15 @@ Flask App → Docker Image → Amazon ECR → ECS Fargate → Application Load B
 
 ---
 
-## 🌐 Live Application
+## Live Application
 The application is successfully deployed and accessible via AWS Application Load Balancer.
 
-👉 Output:
-Hello from Flask Docker App 🚀
+Output:
+Hello from Flask Docker App 
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Flask App Working (ALB Output)
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/ffefa15d-acdc-4015-9a86-211aa87126b6" />
@@ -66,7 +66,7 @@ Hello from Flask Docker App 🚀
 
 ---
 
-## 🎯 Key Learnings
+## Key Learnings
 - Docker containerization of Flask apps
 - AWS ECR image storage and management
 - ECS Fargate serverless deployment
@@ -74,10 +74,6 @@ Hello from Flask Docker App 🚀
 - End-to-end cloud deployment pipeline
 
 ---
-
-## 👩‍💻 Author
-Sayali Fursule  
-BE IT Graduate | Cloud & DevOps Enthusiast
 
 
 

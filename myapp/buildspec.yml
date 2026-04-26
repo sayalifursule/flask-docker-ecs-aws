@@ -1,0 +1,24 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      docker: 20
+    commands:
+      - echo Installing dependencies...
+
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws --version
+
+  build:
+    commands:
+      - echo Build Docker image
+      - docker build -t myapp .
+      - echo Run container
+      - docker run -d -p 5000:5000 --name mycontainer myapp
+
+  post_build:
+    commands:
+      - echo Build completed
